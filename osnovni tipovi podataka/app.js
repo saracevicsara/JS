@@ -55,3 +55,47 @@
 // if (x === x) {
 //   console.log("string nije dupliran");
 // }
+
+// sifra = Number(prompt("unesite sifru"));
+// if (sifra === 1234) {
+//   console.log("uneta sifra je tacna");
+// }
+// x = prompt("unesite prvi broj");
+// y = prompt("unesite drugi broj");
+// if (x === y) {
+//   console.log("brojevi su jednaki");
+// }
+// x = prompt("unesite prvi broj");
+// y = prompt("unesite drugi broj");
+// if (x > y) {
+//   console.log("prvi je veci od drugog");
+// }
+// x = Number(prompt("unesite neki broj"));
+// if (x % 2 === 0) {
+//   console.log("broj je paran");
+// } else {
+//   console.log("broj je neparan");
+// }
+// x = Number(prompt("unesite neki broj"));
+// if (x % 2 === 0) {
+//   console.log("broj je paran");
+// }
+// if (x % 2 !== 0) {
+//   console.log("broj je neparan");
+// }
+// x = Number(prompt("unesite neki broj"));
+
+// if (x > 0) {
+//   console.log("broj je pozitivan");
+// } else {
+//   console.log("bro je negativan");
+// }
+// x = Number(prompt("unesite neku godinu"));
+// if (x % 400 === 0 && x % 100 === 0) {
+//   console.log("godina je prestupna");
+// }
+// if (x % 100 !== 0 && x % 4 === 0) {
+//   console.log("godina je  prestupna");
+// } else {
+//   console.log("nije prestupna");
+// }
