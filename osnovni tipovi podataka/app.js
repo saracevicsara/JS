@@ -99,3 +99,15 @@
 // } else {
 //   console.log("nije prestupna");
 // }
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(false));
+// console.log(Boolean(""));
+// console.log(Boolean(null));
+
+//DOmaci uneeti broj bodova ucenika i ispisati ocenu ucenika.
+//0-20 bodova - 1
+//21-40 bodova - 2
+//41-60 bodova - 3
+//61-80 bodova - 4
+//81-100 bodova - 5
