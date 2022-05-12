@@ -111,3 +111,21 @@
 //41-60 bodova - 3
 //61-80 bodova - 4
 //81-100 bodova - 5
+
+//DOMACI
+// x = Number(prompt("unesite bodove od 0-100"));
+// if (x > 0 && x <= 20) {
+//   console.log("nedovoljan(1)");
+// }
+// if (x > 20 && x <= 40) {
+//   console.log("dovoljan(2)");
+// }
+// if (x > 40 && x <= 60) {
+//   console.log("dobar(3)");
+// }
+// if (x > 60 && x <= 80) {
+//   console.log("vrlo dobar(4)");
+// }
+// if (x > 80 && x <= 100) {
+//   console.log("odlican(5)");
+// }
