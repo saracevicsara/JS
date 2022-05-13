@@ -142,3 +142,46 @@
 // for (i = x; i <= y; i++) {
 //   console.log(i);
 // }
+
+// x = Number(prompt("unesite pocetnu vrednost"));
+// y = Number(prompt("unesite krajnju vrednost"));
+// for (i = x; i <= y; i += 2) {
+//   if (i % 2 == 0) console.log(i);
+// }
+
+// x = Number(prompt("unesite pocetnu vrednost"));
+// y = Number(prompt("unesite krajnju vrednost"));
+// sum=0
+// for (i = x; i <= y; i++) {
+//   sum+=i
+// }
+// console.log(sum);
+// x = Number(prompt("unesite pocetnu vrednost"));
+// y = Number(prompt("unesite krajnju vrednost"));
+// for (i = x; i <= y; i++) {
+//   console.log(i ** 2);
+// }
+// x = Number(prompt("unesite brojeve"));
+// sum = 0;
+// if (x == x) {
+//   for (i = 0; i <= x; i++) {
+//     y = Number(prompt("unesite brojeve"));
+//     console.log(y);
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+// x = Number(prompt("unesite brojeve"));
+// sum=0
+// for (i = 0; i <= x; i++){
+//   y = Number(prompt("unesite brojeve"));
+//   sum+=y
+// }
+// console.log(sum)
+
+x = Number(prompt("unesite broj redova"));
+str = "";
+for (i = 0; i <= x; i++) {
+  str += "*";
+  console.log(str);
+}
