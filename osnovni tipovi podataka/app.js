@@ -129,3 +129,16 @@
 // if (x > 80 && x <= 100) {
 //   console.log("odlican(5)");
 // }
+//   for(i=0;i<10;i++){
+//       console.log("sald")
+//   }
+
+// x = Number(prompt("unesite bodove od 0-100"));
+// for (i = 0; i <= x; i++) {
+//   console.log(i);
+// }
+// x = Number(prompt("unesite pocetnu vrednost"));
+// y = Number(prompt("unesite krajnju vrednost"));
+// for (i = x; i <= y; i++) {
+//   console.log(i);
+// }
