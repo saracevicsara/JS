@@ -179,9 +179,40 @@
 // }
 // console.log(sum)
 
-x = Number(prompt("unesite broj redova"));
-str = "";
-for (i = 0; i <= x; i++) {
-  str += "*";
-  console.log(str);
-}
+// x = Number(prompt("unesite broj redova"));
+// str = "";
+// for (i = 0; i <= x; i++) {
+//   str += "*";
+//   console.log(str);
+// }
+// x = Number(prompt("unesite broj redova"));
+// for (i = 1; i <= x; i++) {
+//   console.log(i);
+//   {
+//     for (j = i; j == i; j++) {
+//       console.log(j);
+//     }
+//   }
+// }
+// x = Number(prompt("unesite broj redova"));
+// z = "";
+// for (i = 1; i <= x; i++) {
+//   for (j = 1; j <= i; j++) {
+//     z += j;
+//   }
+//   z += "\n";
+// }
+
+// x = Number(prompt("unesite broj redova"));
+// z = "";
+// for (i = 1; i <= x; i++) {
+//   z += i;
+//   console.log(z);
+// }
+// x = Number(prompt("unesite broj redova"));
+// z = "";
+// for (i = 1; i <= x; i++) {
+//   for (j = 1; j <= i; j++) z += i;
+//   console.log(z);
+//   z = "";
+// }
