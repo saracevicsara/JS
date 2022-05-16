@@ -192,17 +192,17 @@
 //     for (j = i; j == i; j++) {
 //       console.log(j);
 //     }
-//   }
+
 // }
 // x = Number(prompt("unesite broj redova"));
 // z = "";
 // for (i = 1; i <= x; i++) {
 //   for (j = 1; j <= i; j++) {
 //     z += j;
-//   }
-//   z += "\n";
-// }
 
+//     z += "\n";
+//   }
+// }
 // x = Number(prompt("unesite broj redova"));
 // z = "";
 // for (i = 1; i <= x; i++) {
@@ -215,4 +215,35 @@
 //   for (j = 1; j <= i; j++) z += i;
 //   console.log(z);
 //   z = "";
+// }
+// x = Number(prompt("unesite broj redova"));
+// str = "";
+// space=""
+// for (i = 0; i < x; i++) {
+//  space+=""
+// }
+// for (i = 0; i <= x; i++){
+//   str="* "
+//   console.log(space+str+space)
+//   space=space.slice(1)
+// }
+// x = Number(prompt("unesite broj "));
+// for (i = 1; i <= x; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("fizzbuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+// x = Number(prompt("unesite broj "));
+// y = 1;
+// sum=0
+// for (i = 1; i <= x; i++) {
+//   y += 1
+//   sum+=parseint(y)
+//   console.log(sum);
 // }
