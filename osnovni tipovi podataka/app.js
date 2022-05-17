@@ -280,8 +280,8 @@
 //   fact = fact * i;
 //   console.log(fact);
 // }
-let zbir;
-for (let i = 1; i < 11; i += 2) {
-  zbir += i;
-  console.log(zbir);
-}
+// let zbir;
+// for (let i = 1; i < 11; i += 2) {
+//   zbir += i;
+//   console.log(zbir);
+// }
