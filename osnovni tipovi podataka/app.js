@@ -247,3 +247,41 @@
 //   sum+=parseint(y)
 //   console.log(sum);
 // }
+// x = Number(prompt("unesite broj "));
+// string = "";
+// broj = 1;
+// // External loop
+// for (i = 1; i <= x; i++) {
+//   // Internal loop
+//   for (j = 1; j <= i; j++) {
+//     string += broj;
+//     broj++;
+//   }
+//   string += "\n";
+// }
+// console.log(string);
+// kolicina = parseInt(prompt("Koliko brojeve zelite da uneste"));
+// sum = 0;
+// for (i = 0; i < kolicina; i++) {
+//   unos = parseInt(prompt("Unesi broj"));
+//   sum += unos;
+// }
+// console.log(sum / kolicina);
+//rec iz malih u velika slova
+// rec = String(prompt("unesite neku rec"));
+// for (i = 0; i < rec.length; i++) {
+//   vslova = rec.toUpperCase();
+//   console.log(vslova);
+// }
+
+// unos = parseInt(prompt("Unesite broj"));
+// fact = 1;
+// for (i = 1; i <= unos; i++) {
+//   fact = fact * i;
+//   console.log(fact);
+// }
+let zbir;
+for (let i = 1; i < 11; i += 2) {
+  zbir += i;
+  console.log(zbir);
+}
