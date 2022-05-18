@@ -218,15 +218,16 @@
 // }
 // x = Number(prompt("unesite broj redova"));
 // str = "";
-// space=""
-// for (i = 0; i < x; i++) {
-//  space+=""
+// space = "";
+// for (i = 1; i < x; i++) {
+//   space += " ";
 // }
-// for (i = 0; i <= x; i++){
-//   str="* "
-//   console.log(space+str+space)
-//   space=space.slice(1)
+// for (i = 1; i <= x; i++) {
+//   str += "* ";
+//   console.log(space + str + space);
+//   space = space.slice(1);
 // }
+
 // x = Number(prompt("unesite broj "));
 // for (i = 1; i <= x; i++) {
 //   if (i % 3 === 0 && i % 5 === 0) {
@@ -285,3 +286,22 @@
 //   zbir += i;
 //   console.log(zbir);
 // }
+// x = Math.round(Math.random() * 10);
+// y = parseInt(prompt("unesite neki broj"));
+// while (y !== x) {
+//   console.log("pogresan broj");
+//   z = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
+// }
+// console.log("pogodili ste");
+x = Math.round(Math.random() * 10);
+y = parseInt(prompt("unesite neki broj"));
+while (y !== x) {
+  z = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
+  if (z < x) {
+    console.log("broj je premali");
+  }
+  if (z > x) {
+    console.log("broj je prevelik");
+  }
+}
+console.log("pogodili ste");
