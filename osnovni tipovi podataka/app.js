@@ -293,15 +293,35 @@
 //   z = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
 // }
 // console.log("pogodili ste");
-x = Math.round(Math.random() * 10);
-y = parseInt(prompt("unesite neki broj"));
-while (y !== x) {
-  z = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
-  if (z < x) {
-    console.log("broj je premali");
-  }
-  if (z > x) {
-    console.log("broj je prevelik");
-  }
+// x = Math.round(Math.random() * 10);
+// y = parseInt(prompt("unesite neki broj"));
+// while (y !== x) {
+//   z = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
+//   if (z < x) {
+//     console.log("broj je premali");
+//   }
+//   else{
+//     console.log("broj je prevelik");
+//   }
+// }
+// console.log("pogodili ste");
+// x = -3;
+// unos = parseInt(prompt("unesite neki broj"));
+// while (unos !== x) {
+//   unos2 = parseInt(prompt("pogresili ste ,pokusajte ponovo"));
+//   if (unos2 > 0) {
+//     console.log("broj je pozitivan");
+//   } else if (unos2 === -3) {
+//     console.log("pogodili ste");
+//   } else {
+//     console.log("broj je negativan");
+//   }
+// }
+
+unos = parseInt(prompt("unesite neki broj"));
+sum = 0;
+while (unos >= 0) {
+  sum += unos;
+  unos = parseInt(prompt("unesite neki broj"));
 }
-console.log("pogodili ste");
+console.log(sum);
