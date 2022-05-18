@@ -318,10 +318,16 @@
 //   }
 // }
 
-unos = parseInt(prompt("unesite neki broj"));
-sum = 0;
-while (unos >= 0) {
-  sum += unos;
-  unos = parseInt(prompt("unesite neki broj"));
+// unos = parseInt(prompt("unesite neki broj"));
+// sum = 0;
+// while (unos >= 0) {
+//   sum += unos;
+//   unos = parseInt(prompt("unesite neki broj"));
+// }
+// console.log(sum);
+unos = String(prompt("unesite neko ime"));
+while (unos !== "END") {
+  console.log(unos);
+  unos = String(prompt("unesite neko ime"));
 }
-console.log(sum);
+console.log("I'm Done ");
