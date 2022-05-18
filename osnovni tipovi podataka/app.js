@@ -325,9 +325,19 @@
 //   unos = parseInt(prompt("unesite neki broj"));
 // }
 // console.log(sum);
-unos = String(prompt("unesite neko ime"));
-while (unos !== "END") {
-  console.log(unos);
-  unos = String(prompt("unesite neko ime"));
-}
-console.log("I'm Done ");
+// unos = String(prompt("unesite neko ime"));
+// while (unos !== "END") {
+//   console.log(unos);
+//   unos = String(prompt("unesite neko ime"));
+// }
+// console.log("I'm Done ");
+// unos = parseInt(prompt("unesite potrebe neparne brojeve"));
+// pronadjeno = 0;
+// broj = 1;
+// while (pronadjeno !== unos) {
+//   if (broj % 2 === 1) {
+//     pronadjeno++;
+//     console.log(broj);
+//   }
+//   broj++;
+// }
