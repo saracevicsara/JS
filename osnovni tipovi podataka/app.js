@@ -340,4 +340,5 @@
 //     console.log(broj);
 //   }
 //   broj++;
-// }
+// }`
+unos = parseInt(prompt("unesite neki broj"));
