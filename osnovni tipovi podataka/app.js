@@ -341,4 +341,17 @@
 //   }
 //   broj++;
 // }`
-unos = parseInt(prompt("unesite neki broj"));
+x = "Ana voli Milovana";
+ispalindrom = true;
+withoutSpacesAndSmallLetters = x.replaceAll(" ", "").toLowerCase();
+lastletter = withoutSpacesAndSmallLetters.lenght - 1;
+for (i = 0; i < withoutSpacesAndSmallLetters.lenght; i++) {
+  if (
+    withoutSpacesAndSmallLetters[i] !==
+    withoutSpacesAndSmallLetters[lastletter - i]
+  ) {
+    ispalindrom = false;
+    break;
+  }
+}
+console.log(ispalindrom);
