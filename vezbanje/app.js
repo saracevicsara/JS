@@ -31,10 +31,11 @@
 
 // if (b == d) console.log("given number is an armstrong number");
 // else console.log("given number is not an armstrong number");
-function add(br1, br2) {
-  sum = br1 + br2;
-  return sum;
-}
-br1 = 5;
-br2 = 9;
-console.log(add(br1, br2));
+//---------------------FUNKCIJE------------------------------
+// function add(br1, br2) {
+//   sum = br1 + br2;
+//   return sum;
+// }
+// br1 = 5;
+// br2 = 9;
+// console.log(add(br1, br2));
