@@ -11,6 +11,11 @@
 //   i++;
 //   if (i === 6) break;
 // }
+// pom2 = " "
+
+// for(i = 0; i < 11; i++){
+//     pom2 += suma[i].toString()
+// }
 // i = 0;
 // do {
 //   i++;
