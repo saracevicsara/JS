@@ -376,17 +376,45 @@
 // } else {
 //   console.log("uneti broj ne pripada nizu");
 // }
-numbers = [3, 5, 10, 21, 42, 22, 1];
-najveci = numbers[0];
-najmanji = numbers[0];
-for (i = 0; i < numbers.length; i++) {
-  if (numbers[i] > najveci) {
-    najveci = numbers[i];
-  }
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// najveci = numbers[0];
+// najmanji = numbers[0];
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > najveci) {
+//     najveci = numbers[i];
+//   }
 
-  if (numbers[i] < najmanji) {
-    najmanji = numbers[i];
-  }
-}
-console.log(najveci);
-console.log(najmanji);
+//   if (numbers[i] < najmanji) {
+//     najmanji = numbers[i];
+//   }
+// }
+// console.log(najveci);
+// console.log(najmanji);
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// najveci = numbers[0];
+// druginajveci = numbers[0];
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > najveci) {
+//     najveci = numbers[i];
+//   }
+//   if (numbers[i] > druginajveci && numbers[i] < najveci) {
+//     druginajveci = numbers[i];
+//   }
+// }
+// console.log(druginajveci);
+
+// numbers = [3, 5, 10, 21, 42, 22];
+// najveci = numbers[0];
+// najmanji = numbers[0];
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > najveci) {
+//     najveci = numbers[i];
+//   }
+
+//   if (numbers[i] < najmanji) {
+//     najmanji = numbers[i];
+//   }
+// }
+// razlika = najveci - najmanji;
+// console.log(razlika);
