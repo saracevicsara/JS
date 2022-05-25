@@ -356,3 +356,23 @@
 // }
 // console.log(ispalindrom);
 //codewors
+// num = [3, 5, 10, 21, 42, 22, 1];
+// sum = 0;
+// for (i = 0; i < num.length; i++) {
+//   sum += num[i];
+// }
+// console.log(sum);
+numbers = [3, 5, 10, 21, 42, 22, 1];
+x = Number(prompt("unesite neki broj"));
+founded = false;
+for (i = 0; i < numbers.length; i++) {
+  if (numbers[i] === x) {
+    founded = true;
+    break;
+  }
+}
+if (founded) {
+  console.log("uneti broj postoji");
+} else {
+  console.log("uneti broj ne pripada nizu");
+}
