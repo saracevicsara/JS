@@ -418,3 +418,36 @@
 // }
 // razlika = najveci - najmanji;
 // console.log(razlika);
+// numbers = [3, 5, 10, 21, 42, 22];
+
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === 0 || numbers[i] === -1) {
+//     console.log("sadrzi 0 i -1");
+//   }
+// }
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// x = false;
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === -1 || numbers[i] === 0) {
+//     founded = true;
+//     break;
+//   }
+// }
+// if (x) {
+//   console.log("uneti broj postoji u nizu");
+// } else {
+//   console.log("uneti broj ne pripada nizu");
+// }
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// x = false;
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === -1 || numbers[i] === 0) {
+//     founded = true;
+//     break;
+//   }
+// }
+// if (x) {
+//   console.log("uneti broj postoji u nizu");
+// } else {
+//   console.log("uneti broj ne pripada nizu");
+// }
