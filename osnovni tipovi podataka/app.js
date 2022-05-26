@@ -429,7 +429,7 @@
 // x = false;
 // for (i = 0; i < numbers.length; i++) {
 //   if (numbers[i] === -1 || numbers[i] === 0) {
-//     founded = true;
+//     x = true;
 //     break;
 //   }
 // }
@@ -442,7 +442,7 @@ numbers = [3, 5, 10, 21, 42, 22, 1];
 x = false;
 for (i = 0; i < numbers.length; i++) {
   if (numbers[i] === 65 || numbers[i] === 77) {
-    founded = true;
+    x = true;
     break;
   }
 }
