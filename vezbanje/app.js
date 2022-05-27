@@ -77,6 +77,6 @@
 // }
 // console.log(index);
 //
-numbers = [2, 3, 5, 7, 9, 0, 76];
-numbers.splice(0, 1, 1001);
-console.log(numbers);
+// numbers = [2, 3, 5, 7, 9, 0, 76];
+// numbers.splice(0, 0, 1001);
+// console.log(numbers);
