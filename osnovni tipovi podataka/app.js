@@ -461,9 +461,43 @@
 //   x.unshift(numbers[i]);
 // }
 // console.log(x);
-unosinputa = Number(prompt("unesite koliko yelite brojeva u nizu"));
-niz = [];
-for (i = 0; i < unosinputa; i++) {
-  niz.push(Number(prompt("unesite koliko yelite brojeva u nizu")));
+// unosinputa = Number(prompt("unesite koliko yelite brojeva u nizu"));
+// niz = [];
+// for (i = 0; i < unosinputa; i++) {
+//   niz.push(Number(prompt("unesite koliko yelite brojeva u nizu")));
+// }
+// console.log(niz);
+// color = ["red", "green", "white", "black"];
+// str = color[0];
+// for (i = 1; i < color.length; i++) {
+//   str += "+" + color[i];
+// }
+// console.log(str);
+// x = "The Quick Brown Fox";
+// str = "";
+// for (i = 0; i < x.length; i++) {
+//   if (i % 2 === 0) {
+//     str += x[i].toUpperCase();
+//   } else {
+//     str += x[i].toLowerCase();
+//   }
+// }
+// console.log(str);
+// numbers = [2, 3, 5, 7, 9, 0, 76];
+// sum = 0;
+// for (i = 0; i < numbers.length; i++) {
+//   sum = sum + numbers[i];
+// }
+// console.log(sum);
+arr = [42, 25, 56, 47, 32];
+arr2 = [];
+arr3 = [];
+for (i = 1; i < arr.length; i++) {
+  if (arr[i] % 2 == 0) {
+    arr2.push(arr[i]);
+  } else {
+    arr3.push(arr[i]);
+  }
 }
-console.log(niz);
+console.log(arr2);
+console.log(arr3);
