@@ -557,3 +557,36 @@
 //   console.log(najveci);
 // }
 // findlargest([1, 5, 67, 100]);
+// a = "spare";
+// b = "pears";
+// function anagram(a, b) {
+//   for (i = 0; i < a.length; i++) {
+//     for (j = 0; j < b.length; j++) {
+//       if (a.includes(b)) {
+//         console.log("anagram");
+//       }
+//     }
+//   }
+// }
+// anagram(a, b);
+
+// a = Number(prompt("unesite neki broj"));
+// b = Number(prompt("unesite neki broj"));
+// c = Number(prompt("unesite neki broj"));
+// function vrednost(a, b, c) {
+//   sum = (a + b + c) / 3;
+//   console.log(sum);
+// }
+// vrednost(a, b, c);
+
+
+
+
+n=Number(prompt("unesite neki broj"));
+function kvadrat(n){
+  for(i=0;i<n.length,i++){
+    x=n[i] +n;
+  }
+  console.log(x)
+}
+kvadrat(n)
