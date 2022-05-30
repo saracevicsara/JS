@@ -489,15 +489,71 @@
 //   sum = sum + numbers[i];
 // }
 // console.log(sum);
-arr = [42, 25, 56, 47, 32];
-arr2 = [];
-arr3 = [];
-for (i = 1; i < arr.length; i++) {
-  if (arr[i] % 2 == 0) {
-    arr2.push(arr[i]);
-  } else {
-    arr3.push(arr[i]);
-  }
-}
-console.log(arr2);
-console.log(arr3);
+// arr = [42, 25, 56, 47, 32];
+// arr2 = [];
+// arr3 = [];
+// for (i = 1; i < arr.length; i++) {
+//   if (arr[i] % 2 == 0) {
+//     arr2.push(arr[i]);
+//   } else {
+//     arr3.push(arr[i]);
+//   }
+// }
+// console.log(arr2);
+// console.log(arr3);
+
+// arr = [42, 25, 56, 47, 32];
+// arr2 = [];
+// for (i = 1; i < arr.length; i++) {
+//   if (arr[i] % 2 === 0) {
+//     arr2.push("-" + arr[i]);
+//   }
+// }
+// console.log(arr2);
+// function pitajkorisnika() {
+//   unos = Number(prompt("unesite neki broj"));
+//   console.log(unos);
+// }
+// pitajkorisnika();
+
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+// sum(5, 6);
+// a = Number(prompt("unesite neki broj"));
+// b = Number(prompt("unesite neki broj"));
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+// sum(a, b);
+// a = Number(prompt("unesite neki broj"));
+// function checknumber(x) {
+//   if (x % 2 === 0) {
+//     console.log("broj je paran");
+//   } else {
+//     console.log("broj je neparan");
+//   }
+// }
+// checknumber(a);
+// numbers = [1, 5, 67, 8];
+// function findlargest(numbers) {
+//   najveci = numbers[0];
+//   for (i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > najveci) {
+//       najveci = numbers[i];
+//     }
+//   }
+//   console.log(najveci);
+// }
+// findlargest(numbers);
+
+// function findlargest(numbers) {
+//   najveci = numbers[0];
+//   for (i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > najveci) {
+//       najveci = numbers[i];
+//     }
+//   }
+//   console.log(najveci);
+// }
+// findlargest([1, 5, 67, 100]);
