@@ -579,14 +579,24 @@
 // }
 // vrednost(a, b, c);
 
+// n=Number(prompt("unesite neki broj"));
+// function kvadrat(n){
+//   for(i=0;i<n.length,i++){
+//     x=n[i] +n;
+//   }
+//   console.log(x)
+// }
+// kvadrat(n)
 
-
-
-n=Number(prompt("unesite neki broj"));
-function kvadrat(n){
-  for(i=0;i<n.length,i++){
-    x=n[i] +n;
-  }
-  console.log(x)
+a = Number(prompt("unesite duzinu prve stranice"));
+b = Number(prompt("unesite duzinu druge stranice"));
+c = Number(prompt("unesite duzinu trece stranice "));
+function areaoftriangle(a, b, c) {
+  formula = (a + b + c) / 2;
+  areaValue = Math.sqrt(
+    formula * (formula - a) * (formula - b) * (formula - c)
+  );
+  console.log(areaValue);
 }
-kvadrat(n)
+
+areaoftriangle(a, b, c);
