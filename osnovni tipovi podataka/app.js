@@ -588,15 +588,32 @@
 // }
 // kvadrat(n)
 
-a = Number(prompt("unesite duzinu prve stranice"));
-b = Number(prompt("unesite duzinu druge stranice"));
-c = Number(prompt("unesite duzinu trece stranice "));
-function areaoftriangle(a, b, c) {
-  formula = (a + b + c) / 2;
-  areaValue = Math.sqrt(
-    formula * (formula - a) * (formula - b) * (formula - c)
-  );
-  console.log(areaValue);
-}
+// a = Number(prompt("unesite duzinu prve stranice"));
+// b = Number(prompt("unesite duzinu druge stranice"));
+// c = Number(prompt("unesite duzinu trece stranice "));
+// function areaoftriangle(a, b, c) {
+//   formula = (a + b + c) / 2;
+//   areaValue = Math.sqrt(
+//     formula * (formula - a) * (formula - b) * (formula - c) // Math.sqrt() method to find the square root of a number.
+//   );
+//   console.log(areaValue);
+// }
 
-areaoftriangle(a, b, c);
+// areaoftriangle(a, b, c);
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   x = dadYearsOld - sonYearsOld - sonYearsOld;
+//   console.log(x);
+// }
+// twiceAsOld(36, 7);
+// function sumStr(a, b) {
+//   console.log(parseInt(a) + parseInt(b));
+// }
+// sumStr("", "9");
+// function oddCount(n) {
+//   for (i = 0; i <= n; i++)
+//     if (i % 2 === !0) {
+//       console.log(i);
+//     }
+// }
+// oddCount(15);
+git;
