@@ -635,13 +635,23 @@
 //------------------------------------------------------------
 function multiplesofanumber(a, b) {
   array = [];
-  for (i = 0; i < b; i++) {
-    array.push(b);
+  for (i = 0; i <= b; i++) {
+    if (array[i] % a === 0) {
+      array.push(b[i]);
+    }
   }
   console.log(array);
 }
-multiplesofanumber(5, 25);
+multiplesofanumber(5, [3, 15, 6, 5, 25]);
 // a = 25;
+// b = 5;
+// Array = [];
+// Array2 = [];
 // for (i = 0; i <= a; i++) {
-//   console.log(i);
+//   Array.push(i);
+//   if (Array[i] % b === 0) {
+//     Array2 = Array.pop();
+//     console.log(Array2);
+//   }
 // }
+// console.log(Array);
