@@ -619,15 +619,29 @@
 //     }
 // }
 // oddCount(15);
-function sameCase(a, b) {
-  if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
-    return -1;
+//-------------------------------------------------------------------
+// function sameCase(a, b) {
+//   if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
+//     return -1;
+//   }
+//   if (
+//     (a.toLowerCase() === a && b.toLowerCase() === b) ||
+//     (a.toUpperCase() === a && b.toUpperCase() === b)
+//   ) {
+//     return 1;
+//   }
+//   return 0;
+// }
+//------------------------------------------------------------
+function multiplesofanumber(a, b) {
+  array = [];
+  for (i = 0; i < b; i++) {
+    array.push(b);
   }
-  if (
-    (a.toLowerCase() === a && b.toLowerCase() === b) ||
-    (a.toUpperCase() === a && b.toUpperCase() === b)
-  ) {
-    return 1;
-  }
-  return 0;
+  console.log(array);
 }
+multiplesofanumber(5, 25);
+// a = 25;
+// for (i = 0; i <= a; i++) {
+//   console.log(i);
+// }
