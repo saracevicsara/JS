@@ -600,15 +600,18 @@
 // }
 
 // areaoftriangle(a, b, c);
+//----------------------------------------------------
 // function twiceAsOld(dadYearsOld, sonYearsOld) {
 //   x = dadYearsOld - sonYearsOld - sonYearsOld;
 //   console.log(x);
 // }
 // twiceAsOld(36, 7);
+//-------------------------------------------
 // function sumStr(a, b) {
 //   console.log(parseInt(a) + parseInt(b));
 // }
 // sumStr("", "9");
+//-------------------------------------------------------------
 // function oddCount(n) {
 //   for (i = 0; i <= n; i++)
 //     if (i % 2 === !0) {
@@ -616,4 +619,15 @@
 //     }
 // }
 // oddCount(15);
-git;
+function sameCase(a, b) {
+  if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
+    return -1;
+  }
+  if (
+    (a.toLowerCase() === a && b.toLowerCase() === b) ||
+    (a.toUpperCase() === a && b.toUpperCase() === b)
+  ) {
+    return 1;
+  }
+  return 0;
+}
