@@ -634,23 +634,37 @@
 // }
 //------------------------------------------------------------
 // function multiplesofanumber(a, b) {
+//   //RADI
 //   array = [];
-//   for (i = 0; i <= b; i++) {
-//     if (array[i] % a === 0) {
-//       array.push(b[i]);
+//   for (i = 1; i < b; i++) {
+//     if (i % a === 0) {
+//       array.push(i);
 //     }
 //   }
 //   console.log(array);
 // }
-// multiplesofanumber(5,25);
+// multiplesofanumber(5, 25);
 //-----------------------------------------------------------------
-function multiplesofanumber(a, b) {
-  array = [];
-  for (i = 0; i < b.length; i++) {
-    if (b[i] % a === 0) {
-      array.push(b[i]);
-    }
-  }
-  return array;
-}
-console.log(multiplesofanumber(5, [1, 5, 25, 7, 15]));
+// function multiplesofanumber(a, b) {//ne radi
+//   array = [];
+//   for (i = 0; i < b; i++) {
+//     if (i % a === 0) {
+//       array.push(b[i]);
+//     }
+//   }
+//   return array;
+// }
+// console.log(multiplesofanumber(5, [1, 5, 25, 7, 15]));
+//--------------------------------------------------------------------------------
+//DOMACI
+// function findMultiples(integer, limit) {
+//   arr = [];
+
+//   for (i = 1; i <= limit; i++) {
+//     if (integer * i <= limit) {
+//       arr.push(integer * i);
+//     }
+//   }
+//   console.log(arr);
+// }
+// findMultiples(12, 13);
