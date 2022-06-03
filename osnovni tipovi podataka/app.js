@@ -654,4 +654,3 @@ function multiplesofanumber(a, b) {
   return array;
 }
 console.log(multiplesofanumber(5, [1, 5, 25, 7, 15]));
-~

@@ -120,3 +120,15 @@
 //   }
 // }
 // console.log(Array);
+
+function findMultiples(integer, limit) {
+  arr = [];
+
+  for (i = 1; i <= limit; i++) {
+    if (integer * i <= limit) {
+      arr.push(integer * i);
+    }
+  }
+  console.log(arr);
+}
+findMultiples(5, 25);
