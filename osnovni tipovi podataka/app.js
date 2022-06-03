@@ -633,25 +633,25 @@
 //   return 0;
 // }
 //------------------------------------------------------------
+// function multiplesofanumber(a, b) {
+//   array = [];
+//   for (i = 0; i <= b; i++) {
+//     if (array[i] % a === 0) {
+//       array.push(b[i]);
+//     }
+//   }
+//   console.log(array);
+// }
+// multiplesofanumber(5,25);
+//-----------------------------------------------------------------
 function multiplesofanumber(a, b) {
   array = [];
-  for (i = 0; i <= b; i++) {
-    if (array[i] % a === 0) {
+  for (i = 0; i < b.length; i++) {
+    if (b[i] % a === 0) {
       array.push(b[i]);
     }
   }
-  console.log(array);
+  return array;
 }
-multiplesofanumber(5, [3, 15, 6, 5, 25]);
-// a = 25;
-// b = 5;
-// Array = [];
-// Array2 = [];
-// for (i = 0; i <= a; i++) {
-//   Array.push(i);
-//   if (Array[i] % b === 0) {
-//     Array2 = Array.pop();
-//     console.log(Array2);
-//   }
-// }
-// console.log(Array);
+console.log(multiplesofanumber(5, [1, 5, 25, 7, 15]));
+~

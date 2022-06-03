@@ -93,17 +93,30 @@
 
 //   console.log(multiplesOf([4, 5, 6, 7, 8], 2)); // Output: [4, 6, 8]
 //----------------------------------------------------------------------------------------------------------------
-function multiplesOf(numbers, number) {
-  // add second argument
-  var multiples = []; // change to array (so that we can store multiple numbers - not just one multiple)
-  for (i = 0; i < numbers.length; i++) {
-    if (numbers[i] % number === 0) {
-      // divide by the number
-      multiples.push(numbers[i]); // add the current multiple found to the multiples array
-    }
-  }
+// function multiplesOf(numbers, number) {
+//   // add second argument
+//   var multiples = []; // change to array (so that we can store multiple numbers - not just one multiple)
+//   for (i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % number === 0) {
+//       // divide by the number
+//       multiples.push(numbers[i]); // add the current multiple found to the multiples array
+//     }
+//   }
 
-  return multiples;
-}
+//   return multiples;
+// }
 
-console.log(multiplesOf([4, 15, 6, 5, 25], 5));
+// console.log(multiplesOf([4, 15, 6, 5, 25], 5));
+//----------------------------------------------------------------------------------------
+// a = 25;
+// b = 5;
+// Array = [];
+// Array2 = [];
+// for (i = 0; i <= a; i++) {
+//   Array.push(i);
+//   if (Array[i] % b === 0) {
+//     Array2 = Array.pop();
+//     console.log(Array2);
+//   }
+// }
+// console.log(Array);
