@@ -733,10 +733,20 @@
 //   }
 // }
 // mojaf("1,2,4,5,7,9,1");
-function mojaf(str) {
-  str = "";
-  if (str === "!") {
-    console.log(str);
+// function mojaf(str) {
+//   str = "";
+//   if (str !== "!") {
+//       str+=
+//     console.log(str);
+//   }
+// }
+// mojaf("hello world!");
+
+function powersOfTwo(n) {
+  myArray = [];
+  for (i = 0; i <= n; i++) {
+    console.log(myArray.push(2 ** i));
   }
+  console.log(myArray);
 }
-mojaf("hello world!");
+powersOfTwo(2);
