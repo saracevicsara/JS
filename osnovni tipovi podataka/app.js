@@ -668,3 +668,75 @@
 //   console.log(arr);
 // }
 // findMultiples(12, 13);
+// function TwoSum(num, target) {
+//   let arr = [];
+//   for (let i = 0; i < num.length; i++) {
+//     for (let j = i + 1; j < num.length; j++) {
+//       if (num[i] + num[j] == target) {
+//         arr.push(i);
+//         arr.push(j);
+//         break;
+//       }
+//     }
+//   }
+//   if (arr.length == 0) {
+//     console.log("Nema takvih brojeva");
+//   } else {
+//     console.log(arr);
+//   }
+// }
+// TwoSum([2, 7, 11, 15], 9);
+
+// arr = [3, 9, 1, 27, 54, 23];
+// sum = 0;
+// mojaF = (e) => {
+//   //   console.log(e);
+//   sum += e;
+//   console.log(sum);
+// };
+
+// arr.forEach(mojaF);
+// arr = [0, 1, false, 2, undefined, "", 3, null];
+// arr2 = [];
+// mojaf = (e) => {
+//   if (e === v) {
+//     console.log(arr2);
+//   }
+// };
+// arr.forEach(mojaf);
+
+// arr = [0, 1, false, 2, undefined, "", 3, null];
+// arr2 = [];
+// arr = [1, 3, 2, 1, 2];
+// arr2 = [];
+// arr.forEach((el) => {
+//   if (el !== 1 && el !== 2) {
+//     arr2.push(el);
+//   }
+// });
+// console.log(arr2);
+
+// function mojaf(number) {
+//   if (number % 2 === 0) {
+//     console.log(number * 8);
+//   } else if (number % 2 !== 0) {
+//     console.log(number * 9);
+//   }
+// }
+// mojaf(25);
+// function mojaf(str) {
+//   str2 = "";
+//   if (parseInt(str) < 5) {
+//     console.log(0);
+//   } else if (parseInt(str) >= 5) {
+//     console.log(1);
+//   }
+// }
+// mojaf("1,2,4,5,7,9,1");
+function mojaf(str) {
+  str = "";
+  if (str === "!") {
+    console.log(str);
+  }
+}
+mojaf("hello world!");
