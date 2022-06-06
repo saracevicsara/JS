@@ -587,6 +587,7 @@
 //   console.log(x)
 // }
 // kvadrat(n)
+//------------------------------------------------------------------
 
 // a = Number(prompt("unesite duzinu prve stranice"));
 // b = Number(prompt("unesite duzinu druge stranice"));
@@ -715,7 +716,7 @@
 //   }
 // });
 // console.log(arr2);
-
+//--------------------------------------------------
 // function mojaf(number) {
 //   if (number % 2 === 0) {
 //     console.log(number * 8);
@@ -724,15 +725,34 @@
 //   }
 // }
 // mojaf(25);
+//-------------------------------------------
 // function mojaf(str) {
-//   str2 = "";
+//   string = "";
 //   if (parseInt(str) < 5) {
-//     console.log(0);
-//   } else if (parseInt(str) >= 5) {
-//     console.log(1);
+//     string += "0";
+//     // console.log(string);
+//   } else if (parseInt(str) > 5) {//SMRTNI POKUSAJ
+//     string += "1";
+//     // console.log(string);
 //   }
 // }
 // mojaf("1,2,4,5,7,9,1");
+//---------------------------------------
+// function fakeBin(string) {
+//   str = "";
+//   for (el of string) {
+//     if (Number(string) > 5) {
+//       str += "1";
+//     }
+//     // if (Number(string) < 5)
+//     else {
+//       str += "0";
+//     }
+//   }
+//   console.log(str);
+// }
+// fakeBin("45389125586");
+//------------------------------------------------
 // function mojaf(str) {
 //   str = "";
 //   if (str !== "!") {
@@ -742,11 +762,13 @@
 // }
 // mojaf("hello world!");
 
-function powersOfTwo(n) {
-  myArray = [];
-  for (i = 0; i <= n; i++) {
-    console.log(myArray.push(2 ** i));
-  }
-  console.log(myArray);
-}
-powersOfTwo(2);
+// function powersOfTwo(n) {
+//   myArray = [];
+//   for (i = 0; i <= n; i++) {
+//     // console.log(
+//     myArray.push(2 ** i);
+//     // );
+//   }
+//   console.log(myArray);
+// }
+// powersOfTwo(2);
