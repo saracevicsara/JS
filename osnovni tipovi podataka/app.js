@@ -782,8 +782,35 @@
 //   return el > 5;
 // });
 // console.log(arr2);
-arr = ["sara", "dwooe", "kwjd", "sjihiwdjj"];
-arr2 = arr.filter((el) => {
-  return el.length >= 5;
-});
-console.log(arr2);
+// arr = ["sara", "dwooe", "kwjd", "sjihiwdjj"];
+// arr2 = arr.filter((el) => {
+//   return el.length >= 5;
+// });
+// console.log(arr2);
+// data = [2, 5, 100];
+// arr = data.map((el) => {
+//   return el * 2;
+// });
+// console.log(arr);
+
+// data = [2, 5, 100];
+// arr = data.map((el) => {
+//   return String(el);
+// });
+// console.log(arr);
+// data = ["sara", "dwooe", "kwjd", "FDFGHJKL", "sjihiwdjj"];
+// arr = data.map((el) => {
+//   return el[0].toUpperCase() + el.slice(1).toLowerCase();
+// });
+// console.log(arr);
+// data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr = data.every((el) => {
+//   return el % 2 === 0;
+// });
+// console.log(arr);
+// data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr = data.every((el) => {
+//   return el > 0;
+// });
+// console.log(arr);
+// js w3schools
