@@ -9,10 +9,12 @@
 //   console.log("tandarabandara");
 // }
 // prva();
+
 // function ime(name) {
 //   console.log(name);
 // }
 // ime("sara");
+
 // function combined(a, b, c) {
 //   console.log(a + b + c);
 // }

@@ -772,3 +772,18 @@
 //   console.log(myArray);
 // }
 // powersOfTwo(2);
+// data = [1, true, "", "sara", flase, 23, null, undefined, 123, 0, 77];
+// arr = data.filter((el) => {
+//   return el;
+// });
+// console.log(arr);
+// arr = [2, 3, 5, 69, 2, 6];
+// arr2 = arr.filter((el) => {
+//   return el > 5;
+// });
+// console.log(arr2);
+arr = ["sara", "dwooe", "kwjd", "sjihiwdjj"];
+arr2 = arr.filter((el) => {
+  return el.length >= 5;
+});
+console.log(arr2);
