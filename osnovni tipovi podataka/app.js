@@ -809,7 +809,7 @@
 // });
 // console.log(arr);
 // data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// arr = data.every((el) => {
+// arr = data.every((el) => { //funkcija unutar varijable
 //   return el > 0;
 // });
 // console.log(arr);
