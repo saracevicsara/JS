@@ -814,4 +814,31 @@
 // });
 // console.log(arr);
 // js w3schools
-//
+
+// brojevi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// arr = brojevi.map((el) => {
+//   return String(el);
+// });
+// console.log(arr);
+// library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The Road Ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Walter Isaacson",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzanne Collins",
+//     title: "Mockingjay: The Final Book of The Hunger Games",
+//     readingStatus: false,
+//   },
+// ];
+// library.forEach((element) => {
+//   console.log(element.author, ":", element.readingStatus);
+// });
+//metoda je funkcija u objektu
