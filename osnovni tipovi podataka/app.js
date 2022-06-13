@@ -842,3 +842,6 @@
 //   console.log(element.author, ":", element.readingStatus);
 // });
 //metoda je funkcija u objektu
+cs=main clg main clg
+q=main clg main clg
+wap=clg main clg main
