@@ -171,3 +171,26 @@
 //   sum += el;
 // });
 // console.log(sum);
+// function welcometothecity(name,city,state){
+
+//         console.log( 'Hello, ' + name.join(' ') + '! ' + 'Welcome to ' + city + ', ' + state + '!');
+
+// }
+// welcometothecity(["sara","jose"], "karachi", "sindh");
+// function stringtoarray(string) {
+//   let arr = string.split(",");//split je funkcija koja određuje koji karakter se koristi za razdvajanje
+//   console.log(arr);
+// }
+// stringtoarray("sara,jose,jose");
+// function isstringuppercase(string){
+//     if(string.toUpperCase() === string){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// isstringuppercase("SARA");
+a = [1];
+b = [1];
+console.log(a === b);
