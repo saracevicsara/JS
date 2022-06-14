@@ -848,12 +848,3 @@
 //   for (el of str) arr.unshift(parseInt(el));
 //   console.log(arr);
 // }
-// digitize(12345);
-// function repeatstr(n, str) {
-//   let result = "";
-//   for ( i = 0; i < n; i++) {
-//     result += str;
-//   }
-//   console.log(result);
-// }
-// repeatstr(3, "*");
