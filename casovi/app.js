@@ -878,17 +878,21 @@
 //   .catch((err) => {
 //     console.log(err);
 //   });
-mypromise = new Promise((resolve, reject) => {
-  num = Math.random();
-  if (num < 5) {
-    resolve(num);
-  }
-  reject(`broj je manji od 5(${num})`);
-});
-mypromise
-  .then((res) => {
-    console.log("promise je resolved", res);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+// mypromise = new Promise((resolve, reject) => {
+//   num = Math.random();
+//   if (num < 5) {
+//     resolve(num);
+//   }
+//   reject(`broj je manji od 5(${num})`);
+// });
+// mypromise
+//   .then((res) => {
+//     console.log("promise je resolved", res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+//http metode
+//http codovi
+//404-not found
+//academy.bigbinary.com,15;16
