@@ -858,10 +858,23 @@
 // }
 
 // repeatstr(3, "*");
-data = fetch("https://jsonplaceholder.typicode.com/users")
+// data = fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err.mesagge);
+//   });
+// hypertext transfer protocol
+mypromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("success");
+  }, 2000);
+});
+mypromise
   .then((res) => {
     console.log(res);
   })
   .catch((err) => {
-    console.log(err.mesagge);
+    console.log(err);
   });
