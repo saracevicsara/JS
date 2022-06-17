@@ -866,14 +866,28 @@
 //     console.log(err.mesagge);
 //   });
 // hypertext transfer protocol
+// mypromise = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("success");
+//   }, 2000);
+// });
+// mypromise
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
 mypromise = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("success");
-  }, 2000);
+  num = Math.random();
+  if (num < 5) {
+    resolve(num);
+  }
+  reject(`broj je manji od 5(${num})`);
 });
 mypromise
   .then((res) => {
-    console.log(res);
+    console.log("promise je resolved", res);
   })
   .catch((err) => {
     console.log(err);
