@@ -194,3 +194,18 @@
 // a = [1];
 // b = [1];
 // console.log(a === b);
+//---------------------------------------------------
+// mypromise = new Promise((resolve, reject) => {
+//   num = Math.random();
+//   if (num < 5) {
+//     resolve(num);
+//   }
+//   reject(`broj je manji od 5(${num})`);
+// });
+// mypromise
+//   .then((res) => {
+//     console.log("promise je resolved", res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
