@@ -209,3 +209,5 @@
 //   .catch((err) => {
 //     console.log(err);
 //   });
+// resolve
+// reject
