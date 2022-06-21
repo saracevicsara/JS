@@ -1,7 +1,6 @@
-valuee = document.getElementById("value");
+value = document.getElementById("value");
 minus5 = document.getElementById("sara");
 function minuspet() {
-  if (minus5 === -5) {
-    valuee.innerText = -5;
-  }
+  racunanje = parseInt(value) - parseInt(minus5);
+  value.innerText = racunanje;
 }
