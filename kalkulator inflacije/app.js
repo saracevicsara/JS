@@ -10,6 +10,7 @@ function inflationCalculator() {
     worth += worth * (inflationRate / 100);
   }
   let newElement = document.createElement("div");
+  newElement.classList.add("new-value");
   newElement.innerText = `Your worth after ${years} years is ${worth}`;
   document.querySelector(".container").appendChild(newElement);
 }
