@@ -896,3 +896,26 @@
 //http codovi
 //404-not found
 //academy.bigbinary.com,15;16
+// objekat = {
+//   name: "sara",
+//   age: 16,
+//   city: "novi pazar",
+// };
+// for (let i = 0; i < objekat.length; i++) {
+//   delete objekat.name;
+// }
+// console.log(objekat);
+// console.log(objekat2);
+// let arr = [2, 19, 5, 13, 2, 6];
+// function proveravanje() {
+//   for (let i = 2; i < arr; i++) {
+//     if (arr % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// let arr2 = arr.filter((el) => {
+//   return proveravanje(el);
+// });
+// console.log(arr2);

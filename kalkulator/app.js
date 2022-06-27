@@ -1,9 +1,10 @@
-counterElement = document.querySelector("counter");
-function counterUp(value) {
-  let counter = Number(counterElement.innerText);
-  counterElement.innerText = counter + value;
+counterEl = document.getElementById("counter");
+function countUp(value) {
+  counter = Number(counterEl.innerText);
+  counterEl.innerText = counter + value;
 }
-function counterDown(value) {
-  let counter = Number(counterElement.innerText);
-  counterElement.innerText = counter - value;
+
+function countDown(value) {
+  counter = Number(counterEl.innerText);
+  counterEl.innerText = counter - value;
 }
