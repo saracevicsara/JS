@@ -3,11 +3,10 @@
 // the process whereby the interpreter appears to move the declaration of functions,
 // variables or classes to the top of their scope, prior to execution of the code
 // Thankfully the let and const variables, introduced in ECMAScript 2015, behave differently.
+//---------------------------------------------------------------------------------------------
 // let bar = "bar";
 // console.log(bar); // "bar"
-
 // console.log(foo); // ReferenceError because we're in the TDZ
-
 // let foo = "foo"; // End of foo's TDZ
 //---------------------------------------------------------------------------
 // If we try to call the variable that the function expression
