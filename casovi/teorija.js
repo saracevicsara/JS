@@ -33,3 +33,24 @@
 // There were 2 other implementations, ES2 and ES4, after the first
 // . The 5th implementation, ES5, is the defacto standard of the language.
 // --------------------------------------------------------------------------------------------
+// The main difference between pass by value and pass by reference is that, in a pass by value,
+// the parameter value copies to another variable while,
+// in a pass by reference, the actual parameter passes to the function.
+//---------------------------------------------------------------------------------------------------------------------
+
+//global scope
+// const name = "John";
+// const age = 30;
+// const city = "New York";
+// //local scope
+// function myfunc() {
+//   const name = "Jane";
+//   const age = 40;
+//   return `${name} is ${age} years old.`;
+// }
+// console.log(myfunc());
+//***************************************************************************************
+// Scope in JavaScript refers to the accessibility or visibility of variables and expressions.
+//  That means the space where an item,such as a variable or a function,
+//   is visible and accessible in your code.
+//*********************************************************************************************************
