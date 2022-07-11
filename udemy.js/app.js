@@ -19,3 +19,4 @@
 //   console.log(a + b + c);
 // }
 // combined("sara", "sara", "sara");
+//47.re-useble function with array
