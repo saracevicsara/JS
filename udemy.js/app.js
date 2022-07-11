@@ -20,3 +20,5 @@
 // }
 // combined("sara", "sara", "sara");
 //47.re-useble function with array
+//undefind-default valeu of uninitialized variables
+//array is a special type of object
