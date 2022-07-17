@@ -60,3 +60,13 @@
 // Application programming interface
 // API je kurir koji prenosi zahtev za komuniciranje od jedne strane do druge.
 //interface is a set of rules that define the functionality of a software component.
+//**************************************************************************************************************************
+//GET and POST are two different HTTP request methods.
+//GET use when retrieving data from a server.
+//use POST when sending data to a server.
+//**************************************************************************************************************************
+//JSON is a data format that is used to exchange data between programs.-javascript object notation
+//**************************************************************************************************************************
+array = ["a", "b", "c"];
+array = ["start", ...array, "end"];
+console.log(array);
