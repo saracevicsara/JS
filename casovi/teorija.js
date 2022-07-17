@@ -67,6 +67,7 @@
 //**************************************************************************************************************************
 //JSON is a data format that is used to exchange data between programs.-javascript object notation
 //**************************************************************************************************************************
-array = ["a", "b", "c"];
-array = ["start", ...array, "end"];
-console.log(array);
+// array = ["a", "b", "c"];
+// array = ["start", ...array, "end"];
+// console.log(array);
+// console.log(typeof typeof 1);
