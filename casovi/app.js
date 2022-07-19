@@ -919,4 +919,5 @@
 // });
 // console.log(arr2);
 //Scope determines the accessibility (visibility) of variables.
+
 //scope je pogled na varijable
