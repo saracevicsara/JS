@@ -27,3 +27,8 @@
 //script in header with defer
 //defer-cekati
 //parse-analizirati
+// let str = "";
+// for (let i = 0; i <= 10; i++) {
+//   str += "*";
+//   console.log(str);
+// }

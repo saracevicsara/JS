@@ -880,8 +880,8 @@
 // mypromise = new Promise((resolve, reject) => {
 //   num = Math.random();
 //   if (num < 5) {
-//     resolve(num);
 //   }
+//     resolve(num);
 //   reject(`broj je manji od 5(${num})`);
 // });
 // mypromise
