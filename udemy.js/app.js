@@ -32,3 +32,59 @@
 //   str += "*";
 //   console.log(str);
 // }
+//.toFixed metoda sluzi da broj zaokruzimo na proizvoljne decimale
+
+// let i = 0;
+// while (true) {
+//   if (i <= 9) {
+//     console.log(i);
+//     i++;
+//   } else {
+//     break;
+//   }
+// }
+//ugnjezdena funkcija
+//primer i za scope
+// function outer() {
+//   let a = 4;
+//   function inner() {
+//     let b = 5;
+//     console.log(a + b);
+//   }
+//   inner();
+//   console.log(a);
+// }
+// outer();
+
+const spending_threshould = 200;
+const tax_rate = 0.08;
+const phone_price = 99.99;
+const accessory_price = 9.99;
+
+let bank_balance = 303.91;
+let amount = 0;
+
+//deklarisemo uopstene funkcije
+const calculateTax = () => {
+  return amount * tax_rate;
+};
+const formatAmount = () => {
+  return "$" + amount.toFixed(2);
+};
+//-------------------------------
+//
+while (amount < bank_balance) {
+  amount = amount + phone_price;
+  if (amount < spending_threshould) {
+    //ako je telefon jeftiniji od praga trosenja dodajemo accessorys
+    amount = amount + accessory_price;
+  }
+}
+//dodajemo porez
+
+amount = amount + calculateTax(amount);
+console.log("iznos kupovine" + formatAmount(amount)); //koristimo funkciju za formatiranje
+
+if (amount > bank_balance) {
+  console.log("ne mogu sebi priustiti ovu kupovinu");
+}
