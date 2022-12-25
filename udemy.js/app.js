@@ -56,12 +56,12 @@
 // }
 // outer();
 
-const spending_threshould = 200;
+const spending_threshould = Number(prompt("unesite prag trosenja"));
 const tax_rate = 0.08;
 const phone_price = 99.99;
 const accessory_price = 9.99;
 
-let bank_balance = 303.91;
+let bank_balance = Number(prompt("unesite stanje bankovnog racuna"));
 let amount = 0;
 
 //deklarisemo uopstene funkcije
@@ -85,6 +85,6 @@ while (amount < bank_balance) {
 amount = amount + calculateTax(amount);
 console.log("iznos kupovine" + formatAmount(amount)); //koristimo funkciju za formatiranje
 
-if (amount > bank_balance) {
+if (bank_balance < amount) {
   console.log("ne mogu sebi priustiti ovu kupovinu");
 }
