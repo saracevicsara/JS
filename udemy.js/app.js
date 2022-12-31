@@ -56,35 +56,106 @@
 // }
 // outer();
 
-const spending_threshould = Number(prompt("unesite prag trosenja"));
-const tax_rate = 0.08;
-const phone_price = 99.99;
-const accessory_price = 9.99;
+// poglavlje 1
+// const spending_threshould = Number(prompt("unesite prag trosenja"));
+// const tax_rate = 0.08;
+// const phone_price = 99.99;
+// const accessory_price = 9.99;
 
-let bank_balance = Number(prompt("unesite stanje bankovnog racuna"));
-let amount = 0;
+// let bank_balance = Number(prompt("unesite stanje bankovnog racuna"));
+// let amount = 0;
 
-//deklarisemo uopstene funkcije
-const calculateTax = () => {
-  return amount * tax_rate;
-};
-const formatAmount = () => {
-  return "$" + amount.toFixed(2);
-};
-//-------------------------------
-//
-while (amount < bank_balance) {
-  amount = amount + phone_price;
-  if (amount < spending_threshould) {
-    //ako je telefon jeftiniji od praga trosenja dodajemo accessorys
-    amount = amount + accessory_price;
-  }
-}
-//dodajemo porez
+// //deklarisemo uopstene funkcije
+// const calculateTax = () => {
+//   return amount * tax_rate;
+// };
+// const formatAmount = () => {
+//   return "$" + amount.toFixed(2);
+// };
+// //-------------------------------
+// //
+// while (amount < bank_balance) {
+//   amount = amount + phone_price;
+//   if (amount < spending_threshould) {
+//     //ako je telefon jeftiniji od praga trosenja dodajemo accessorys
+//     amount = amount + accessory_price;
+//   }
+// }
+// //dodajemo porez
 
-amount = amount + calculateTax(amount);
-console.log("iznos kupovine" + formatAmount(amount)); //koristimo funkciju za formatiranje
+// amount = amount + calculateTax(amount);
+// console.log("iznos kupovine" + formatAmount(amount)); //koristimo funkciju za formatiranje
 
-if (bank_balance < amount) {
-  console.log("ne mogu sebi priustiti ovu kupovinu");
-}
+// if (bank_balance < amount) {
+//   console.log("ne mogu sebi priustiti ovu kupovinu");
+// }
+
+// function foo() {
+//   let a = 1;
+//   function bar() {
+//     let b = 2;
+//     function baz() {
+//       let c = 3;
+//       console.log(a, b, c);
+//     }
+//     baz();
+//     console.log(a, b);
+//   }
+//   bar();
+//   console.log(a);
+// }
+
+// foo();
+//scope and hoisting
+// const foo = () => {
+//   let a = 1;
+
+//   if (a >= 1) {
+//     let b = 2;
+
+//     while (b < 5) {
+//       let c = b * 2;
+//       b++;
+//       console.log(a + c);
+//     }
+//   }
+// };
+
+// foo();
+
+//"use strict"
+
+// const foo = () => {
+//   "use strict";
+//   let a = 1;
+//   console.log(a);
+// };
+
+// foo();
+
+//IIFE-IMMEDIATELY INVOKED FUNCTION EXPRESSION-funkcija za trenutno izvrsavaje
+
+// (function sarsi() {   //(...) sprecavaju da se ovo deklarise kao obicna funkcija
+//   console.log("sara");
+// })();
+
+//closure
+
+// function makeadder(x) {
+//   function add(y) {
+//     return x + y;
+//   }
+//   return add;
+// }
+// let plusOne = makeadder(1);
+// let plusTen = makeadder(10);
+
+//prototype object
+// let foo = {
+//   a: 42,
+// };
+
+// let bar = Object.create(foo);
+// bar.b = "hello world";
+// console.log(bar.b);
+// console.log(bar.a);
