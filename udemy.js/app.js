@@ -159,3 +159,15 @@
 // bar.b = "hello world";
 // console.log(bar.b);
 // console.log(bar.a);
+
+//LHS/RHS-lefthand side/righthand side
+//left-varijabla/right-vrednost
+
+function foo(a) {
+  let b = a;
+  return a + b;
+}
+
+let c = foo(2);
+
+console.log(c);
