@@ -163,11 +163,24 @@
 //LHS/RHS-lefthand side/righthand side
 //left-varijabla/right-vrednost
 
-function foo(a) {
-  let b = a;
-  return a + b;
+// function foo(a) {
+//   let b = a;
+//   return a + b;
+// }
+
+// let c = foo(2);
+
+// console.log(c);
+// console.log(imme); //referenceError
+// console.log(ime); //referenceError
+// console.log(name); //undefind
+// var name = "sara"; //global declaration
+// let ime = "sara1";
+// const imme = "sara2";
+// ime = "sara";
+var ime = "sara";
+sara();
+function sara() {
+  console.log(ime);
 }
-
-let c = foo(2);
-
-console.log(c);
+// console.log(ime);
