@@ -178,9 +178,19 @@
 // let ime = "sara1";
 // const imme = "sara2";
 // ime = "sara";
-var ime = "sara";
-sara();
-function sara() {
-  console.log(ime);
-}
+// var ime = "sara";
+// sara();
+// function sara() {
+//   console.log(ime);
+// }
 // console.log(ime);
+//----------------------------
+//LET
+var foo = true;
+
+if (foo) {
+  let bar = foo * 2;
+  bar = something(bar);
+  console.log(bar);
+}
+console.log(bar);
