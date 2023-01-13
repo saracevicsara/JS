@@ -186,11 +186,20 @@
 // console.log(ime);
 //----------------------------
 //LET
-var foo = true;
+// var foo = true;
 
-if (foo) {
-  let bar = foo * 2;
-  bar = something(bar);
-  console.log(bar);
-}
-console.log(bar);
+// if (foo) {
+//   let bar = foo * 2;
+//   bar = something(bar);
+//   console.log(bar);
+// }
+// console.log(bar);
+
+// for (let i = 1; i < 10; i++) {
+//   console.log(i);
+// }
+
+// console.log(i); //err
+// a = 2;
+// var a;
+// console.log(a);
